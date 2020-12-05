@@ -1,5 +1,5 @@
 var StrNav ="";
-StrNav+='<a class="navbar-brand" href="#">好的交易</a>';
+StrNav+='<a class="navbar-brand" href="index.html">好的交易</a>';
 StrNav+='		 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">';
 StrNav+='			<span class="navbar-toggler-icon"></span>';
 StrNav+='		 </button>';
@@ -14,6 +14,14 @@ StrNav+='                        <a class="dropdown-item" href="#">美國大盤<
 StrNav+='                        <a class="dropdown-item" href="#">各國大盤</a>';
 StrNav+='                        <div class="dropdown-divider"></div>';
 StrNav+='                        <a class="dropdown-item" href="#">經濟數據</a>';
+StrNav+='                    </div>';
+StrNav+='                </li>';
+StrNav+='                <li class="nav-item dropdown">';
+StrNav+='                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">';
+StrNav+='                        世界農產品';
+StrNav+='                   </a>';
+StrNav+='                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">';
+StrNav+='                        <a class="dropdown-item" href="soyBean.html">黃豆</a>';
 StrNav+='                    </div>';
 StrNav+='                </li>';
 StrNav+='                <li class="nav-item dropdown">';
